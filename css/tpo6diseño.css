@@ -22,3 +22,7 @@ body{
         #fondo {  
             background-color:lightpink; /* modificar el color a elección */
             }
+            p a {
+                color: #333;
+                text-decoration: none;
+                }
