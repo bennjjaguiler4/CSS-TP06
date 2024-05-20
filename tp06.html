@@ -34,7 +34,8 @@
             explicar sus elementos.</h3>
         <p>la regla esta compuesta por los siguientes elementos</p>
         <dl>
-            <dd><img src="csspartes.3d2bee5.aa01c55ea5fd8ecd1ae1116d536b4e85.png" alt="css"></dd>
+            <dd><img src="csspartes.3d2bee5.aa01c55ea5fd8ecd1ae1116d536b4e85.png" alt="css" width="242" height="102.5">
+            </dd>
             <dd>selector-selecciona los elementos a dar estilo </dd>
             <dd>declaración- aplica las propiedades que querés dar al elemento seleccionado en el Selector</dd>
             <dd>propiedades- es lo que te permite dar estilo a un elemento html </dd>
@@ -45,7 +46,116 @@
             navegador que elementos html deben ser estilizados</p>
 
         <h3>1.6- Identificar y definir los selectores: de ID, de clases, universal, de etiquetas, descendente.</h3>
-        
+        <dl>
+            <dd>selector de id: este atributo se aplica a un unico elemento, identifica un elemento html por medio de un
+                nombre.</dd>
+            <dd>selector de clases: este atributo empieza siempre por un punto que los clientes web distinguen,aplica
+                elementos css a elementos similares entre si.</dd>
+            <dd>selector universal: nos deja aplicar estilos a todos los elementos html de un documento, y se indica con
+                el asterisco (*)</dd>
+            <dd>selector de etiquetas: aplica propiedades CSS a una etiqueta, La misma se puede identificaqr sin
+                utilizar simbolos de mayor y menor</dd>
+            <dd>selector descendente: con este selector seleccionamos un elemento que está dentro de otro del mismo
+                tipo, siempre esta formado por uno o dos selectores separados entre si, el ultimo slector sera el
+                elemento ht al que se le aplicara propiedades. css</dd>
+        </dl>
+        <h3>1.7- Explicar brevemente utilizando una lista ordenada: ¿cómo funciona el CSS? Guía para respuesta</h3>
+        <ol>
+            <li>paso 1: el navegador carga/recibe el html.</li>
+            <li>paso 2: convierte el html en un dom, El dom representa el documento en la memoria del ordenador ( dom es
+                como un arbol familiar cada atributo o lenguaje marcado se convierte en un nodo, que cada uno se define
+                por su relaion con otros nodos, unos nodos pueden ser padres de otros nodos secundarios y asi su susesivamente)</li>
+            <li>paso 3:el navegador va a buscar la mayor parte de los recursos vinculados al documento html, como imagenes, videos, el archivo css vilculado, etc </li>
+            <li>paso 4: el navegador analiza el css y ordena en diferentes cubos las diferentes reglas segun el tipo de selector </li>
+            <li>paso 5: el árbol de renderización muestra la estructura en que los nodos deben aparecer después de que las reglas sean aplicadas</li>
+            <li>paso 6: finalmente se muestra el aspecto visual de la página en la pantalla</li>
+        </ol>
+        <h3>1.8- ¿Cuáles son las tres formas para vincular CSS con HTML?
+        </h3>
+        <p>
+            las 3 formas de vincular css con html son: 
+            la vinculacion externa, utilizando la etiqueta en la seccion del documento html para referenciar un archivo css externo.
+            los etilos en linea, utilizando la etiqueta style en las etiquetas html paras estilizar etiquetas individuales.
+            por ultimo los estilos internos, utilizando la etiqueta en la seccion del documento html, para definir estilos css dentro del mismo archivo html.
+
+        </p>
+        <h3> 1.9 Ingrese al sitio CSS Zen Garden http://www.csszengarden.com y analicemos el código HTML siguiendo los siguientes pasos:
+            Hacer clic en View All Designs
+            Elegir dos diseños y abrirlo en pestañas distintas
+            En el primer diseño presiona ctrl+u (esta combinación de teclas permite ver el código HTML en el navegador)
+            En el segundo diseño presiona ctrl+u (esta combinación de teclas permite ver el código HTML en el navegador)
+            Escribir la URL de los dos diseños seleccionados y responder: las etiquetas dentro de body ¿son iguales? ¿Qué es lo distinto? ¿Qué contribuye al cambio de diseño?
+            Abrir los dos archivos CSS de los diseños seleccionados. ¿Son los mismos?
+            En líneas generales, el mismo HTML ¿puede tener diferentes diseños?</h3>
+            <p>
+                la estructura de ambos diseños es igual, lo unico que cambia es el diseño que se le da a cada una, el mismo html puede tener diferentes diseños css, depende de la creatividad de cada persona.
+
+            </p>
+
+            <h2>ejercicio 2</h2>
+            <h3>2.0- Utilizaremos las siguientes propiedades de CSS. Completar la columna de valores posibles para cada propiedad. </h3>
+            <table>
+                <tr>
+                    <th>propiedad</th>
+                    <th>descripcion</th>
+                    <th>Valores posibles</th>
+                </tr>
+                <tr>
+                    <td>color</td>
+                    <td>Define el color del texto</td>
+                    <td>pink</td>
+                </tr>
+                <tr>
+                    <td>background-color</td>
+                    <td>Define el color de fondo de un elemento</td>
+                    <td>aqua</td>
+                </tr>
+                <tr>
+                    <td>font-size</td>
+                    <td>Define el tamaño de la fuente del texto</td>
+                    <td>small</td>
+                </tr>
+                <tr>
+                    <td>font-weight</td>
+                    <td>Define el grosor de la fuente del texto (por ejemplo, si se trata de texto en negrita o normal)</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>font-style</td>
+                    <td>Define el estilo de la fuente del texto (por ejemplo, si es cursiva o normal)</td>
+                    <td>oblique</td>
+                </tr>
+                <tr>
+                    <td>font-family</td>
+                    <td>Define el tipo de letra a utilizar para el texto</td>
+                    <td>Times 'New Roman', Times, serif</td>
+                </tr>
+                <tr>
+                    <td>text-align</td>
+                    <td>Define la alineación horizontal del texto (izquierda, centro o derecha)</td>
+                    <td>end</td>
+                </tr>
+                <tr>
+                    <td>text-decoration</td>
+                    <td>Define la decoración del texto (por ejemplo, si está subrayado o tachado)</td>
+                    <td>double</td>
+                </tr>
+                <tr>
+                    <td>text-transform</td>
+                    <td>Define la transformación del texto (por ejemplo, en mayúsculas o minúsculas)</td>
+                    <td>none</td>
+                </tr>
+                <tr>
+                    <td>letter-spacing</td>
+                    <td>Define el espacio entre letras</td>
+                    <td>0cqh</td>
+                </tr>
+                <tr>
+                    <td>line-height</td>
+                    <td>Define la altura de línea del texto.</td>
+                    <td>0cqi</td>
+                </tr>
+            </table>
     </main>
     <footer>
 
