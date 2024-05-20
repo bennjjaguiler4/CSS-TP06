@@ -1,11 +1,24 @@
-body{
-    background-color: aqua;
-    font-weight: 300;
-    font-style: oblique;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: end;
-    text-decoration: double;
-    letter-spacing: 0cqh;
-    line-height: 0cqi;
-    
+h1{
+   color: black; 
+   font-size:xx-large;
 }
+body{
+    background-color: hotpink;
+    font-size:medium;
+
+
+}
+.encabezado {  
+    text-align: center;  
+    text-transform: uppercase;  
+    font-weight: bold;  
+    font-size: 42px;
+    }
+    .parrafo {  
+        text-align: justify;  
+        text-transform: capitalize;  
+        font-size: 24px;
+        }
+        #fondo {  
+            background-color:lightpink; /* modificar el color a elección */
+            }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio2tp06</title>
+    <link rel="stylesheet" href="css/tpo6diseño.css">
+</head>
+
+<body id="fondo">
+    
+    <h1 class="encabezado">Práctica de CSS</h1>
+        <h2>Benjamin Aguilera </h2>
+
+    
+  
+        <h3>2.1- Crea un archivo HTML con la estructura básica de una página web, agregar como título “Práctica de CSS”.
+            Crea un encabezado de página con el mismo título, agrega un subtítulo con tu Nombre y Apellido</h3>
+        <h3>
+            2.2- Crea una hoja de estilos CSS y vincularla a tu archivo HTML:
+            Crea un archivo nuevo en el mismo directorio que tu archivo HTML. Debe llamarse estilos.css
+            En este punto aprenderás cómo agregar un comentario en un CSS. Dentro del archivo creado, escribe el
+            siguiente código para la estructura básica de tu hoja de estilos CSS:
+            /* Estilos para la página web */
+
+            Vincula tu hoja de estilos CSS a tu archivo HTML, puedes usar como guía la pregunta 1.8. Agregar la
+            siguiente línea de código en el encabezado de tu archivo HTML:
+            link rel="stylesheet" type="text/css" href="estilos.css"
+            Asegúrate de que el valor del atributo href apunte al nombre de tu archivo CSS.
+
+        </h3>
+        <h3>
+            2.3- Utiliza selectores por etiquetas para aplicar estilos a las etiquetas HTML, como el tamaño de fuente,
+            el color de fondo y el color del texto:
+            Utiliza el selector body para aplicar estilos al cuerpo de la página, como el color de fondo y el tamaño de
+            fuente.
+            body {  
+                background-color: #f2f2f2;  
+                font-size: 16px;
+                }
+                Utiliza el selector h1 para aplicar estilos al encabezado de la página, como el tamaño de fuente y el color del texto.
+                h1 {  
+                font-size: 36px;  
+                color: #333;
+                }
+                Utiliza el selector p para aplicar estilos al contenido de la página, como el tamaño de fuente y el color del texto a elección.
+                
+
+        </h3>
+        <h3>2.4- En este punto aprenderás a utilizar selectores por clase para aplicar estilos a elementos específicos de la página, como los encabezados, los párrafos, las imágenes, botones, etc:
+            Agrega una clase encabezado a tu encabezado de la página para aplicar estilos específicos a ese elemento.
+            En el HTML
+            h1 class="encabezado">Práctica de CSS /h1
+            
+            En el CSS
+            .encabezado {  
+            text-align: center;  
+            text-transform: uppercase;  
+            font-weight: bold;  
+            font-size: 42px;
+            }
+            
+            Explicar en un párrafo en minúscula, los cambios que recibió el texto. 
+            Agrega una clase parrafo a un párrafo en tu página para aplicar estilos específicos a ese elemento.
+            
+            
+            .parrafo {  
+            text-align: justify;  
+            text-transform: capitalize;  
+            font-size: 24px;
+            }
+            </h3>
+            <p class="parrafo"> el  titulo fue movido hacia el centro de la pagina</p>
+            <h3>2.5- Ahora aprenderás a utilizar el selectores por ID para aplicar estilos a elementos únicos de la página, como una imagen de fondo o un menú desplegable:
+                Agrega un ID fondo a tu cuerpo de la página para aplicar un fondo específico a toda la página.
+                En el HTML
+                body id="fondo"
+                
+                En el CSS
+                #fondo {  
+                background-color: #aa3b3b; 
+                }
+                </h3>
+                <h3>2.6- Utiliza selectores descendentes para aplicar estilos a elementos dentro de otros elementos, como un enlace dentro de un párrafo:
+                    Agrega un enlace a un párrafo en tu página.
+                    <p>Este es un párrafo de ejemplo. <a href="#">Haz clic aquí</a> para obtener más información.</p>
+                    Utiliza un selector descendente para aplicar estilos al enlace dentro del párrafo. ¿Qué se modifica?
+                    p a {  
+                    color: #333;  
+                    text-decoration: none;
+                    }
+                    </h3>
+           
+
+
+
+    
+   
+</body>
+
+</html>
